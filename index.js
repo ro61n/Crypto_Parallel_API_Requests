@@ -119,7 +119,7 @@ function printReturnedData() {
 }
 
 
-// Function makes parallel requests... // Copied from a blog. Source: https://itnext.io/node-js-handling-asynchronous-operations-in-parallel-69679dfae3fc
+// Function makes parallel requests... // Derived from a blog. Source: https://itnext.io/node-js-handling-asynchronous-operations-in-parallel-69679dfae3fc
 async function makeParallelRequests(listOfArguments) {
   const concurrencyLimit = 10; // 10 parallel requests at a time
   const argsCopy = listOfArguments.slice();
